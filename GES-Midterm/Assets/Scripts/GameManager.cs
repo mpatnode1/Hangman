@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO;
-using System.Linq;
 using TMPro;
 using System;
 using UnityEngine.Windows;
@@ -197,10 +195,9 @@ public class GameManager : MonoBehaviour
     {
         //picks word from wordlist txt file
         //sets bar at top in game to read _'s in corresponding spaces
-
-        string[] wordList = System.IO.File.ReadAllLines("Assets/Scripts/WordList.txt");
-        selectedWord = wordList[UnityEngine.Random.Range(0, wordList.Length)];
-        Debug.Log(wordList);
+        SelectedWord selectedWordClass = new SelectedWord();
+        selectedWord = selectedWordClass.SelectWord();
+        
         Debug.Log(selectedWord);
         blankWord = new string[selectedWord.Length];
 

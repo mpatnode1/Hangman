@@ -24,9 +24,11 @@ extern void GameManager_CheckWin_m1C70E8659EAFA6D31E5071450E8D730362E0C04B (void
 extern void GameManager_Lose_mEA933A5A089DCE9100E8C8C79BD9D21992050CD5 (void);
 extern void GameManager_Restart_mCAD4B8EB332D65D94F493AD96956EC1777DC3854 (void);
 extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+extern void SelectedWord_SelectWord_mA5F2FD962326BF2E271C61076C57B684ADD156E3 (void);
+extern void SelectedWord__ctor_m0B12A8341C972DE3B471471ED627BAA651457CE9 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[14] = 
+static Il2CppMethodPointer s_methodPointers[16] = 
 {
 	GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F,
 	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
@@ -40,10 +42,12 @@ static Il2CppMethodPointer s_methodPointers[14] =
 	GameManager_Lose_mEA933A5A089DCE9100E8C8C79BD9D21992050CD5,
 	GameManager_Restart_mCAD4B8EB332D65D94F493AD96956EC1777DC3854,
 	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	SelectedWord_SelectWord_mA5F2FD962326BF2E271C61076C57B684ADD156E3,
+	SelectedWord__ctor_m0B12A8341C972DE3B471471ED627BAA651457CE9,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[14] = 
+static const int32_t s_InvokerIndices[16] = 
 {
 	4359,
 	4359,
@@ -56,6 +60,8 @@ static const int32_t s_InvokerIndices[14] =
 	4359,
 	4359,
 	4359,
+	4359,
+	4261,
 	4359,
 	6253,
 	4359,
@@ -64,7 +70,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	14,
+	16,
 	s_methodPointers,
 	0,
 	NULL,
